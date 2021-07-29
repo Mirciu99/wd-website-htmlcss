@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="form">
+        <form action="index.html" id="contact">
+            <fieldset>
+                <legend>Contact Us</legend>
+                <div class="user-email">
+                    <label for="Firstname">Firstname</label>
+                    <input id="Firsname" type="text" placeholder="Username" name="Firsname">
+                    <label for="Email">Email</label>
+                    <input id="Email" type="email" placeholder="Email" name="Email">
+                </div>
+                <div class="department">
+                    <label for="selectdept">Department</label>
+                    <select name="selectdept" id="selectdept">
+                    <option value="1">Shipping</option>
+                    <option value="2">Sales</option>
+                    <option value="3">Marketing</option>
+                </select>
+                </div>
+                <div class="comments">
+                    <label for="Comments">Comments</label>
+                <textarea id="Comments"  name="Comments"  cols="30" rows="10" placeholder="Message"></textarea>
+                </div>
+                <div class="button">
+                    <input type="submit" value="Enter">
+                    <input type="reset" value="Clear all">
+                </div>
+            </fieldset>
+        </form>
+    </div>
+</body>
+</html>
